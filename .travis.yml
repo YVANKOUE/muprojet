@@ -1,0 +1,11 @@
+language: php
+php:
+  - 7.4.8
+  #install:
+    #-composer install
+script:
+  - echo "skipping test"    
+deploy:
+  provider: heroku
+  api_key: 735a1268-4f77-4bbd-8894-fea542f2478e
+  app: mk-nouveau
